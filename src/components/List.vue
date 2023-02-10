@@ -46,7 +46,7 @@
                   </svg>
                 </button>
               </div>
-              <button @click="deleteSubscription(id)" style="background-color: transparent; padding: 0;">
+              <button @click="deleteSubscription(subscription.key)" style="background-color: transparent; padding: 0;">
                 <svg
                     @click="deleteSubscription"
                     xmlns="http://www.w3.org/2000/svg"
